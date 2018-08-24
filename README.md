@@ -2,6 +2,10 @@
 Este proyecto consiste en entrenar un modelo supervisado para clasificar los pixeles de una imagen satelital.
 (No se incluyen los archivos GeoTiff dentro del proyecto, pues son más grandes que lo que Git acepta)
 
+## Scripts
+Para correr se necesita rasterio, numpy y scikit learn.
+Una vez reemplazadas los archivos de las bandas (que aquí no se incluyen), se puede correr el script "test.py", necesita dos parámetros el primero elige el modelo (0 - Naive Bayes, 1 - SVM) el segundo determina si se usa la característica de NDVI (0 -No, 1 - Sí)
+
 ## Modelos
 Los modelos que se escogieron fueron Naive Bayes y Máquinas de Soporte Vectoriales lineales. Cada uno cuenta con sus ventajas y desventajas
 
